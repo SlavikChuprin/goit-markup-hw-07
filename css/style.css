@@ -319,11 +319,11 @@ header {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-list h3 {
+.features__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -334,14 +334,14 @@ header {
   color: var(--text-h);
 }
 
-.feauters-list-item {
+.feauters__item {
   width: 270px;
 }
-.feauters-list-item:not(:last-child) {
+.feauters__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features-list p {
+.features__description {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -350,7 +350,7 @@ header {
   color: var(--main-text);
 }
 
-.feauters-list-item .icon-feauters {
+.feauters__icon {
   display: flex;
   justify-content: center;
   align-items: center;
