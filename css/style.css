@@ -514,7 +514,7 @@ header {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.regular-customers h2 {
+.regular-customers__tittle {
   margin-bottom: 50px;
 }
 
@@ -524,16 +524,16 @@ header {
   align-items: center;
 }
 
-.regular-client {
+.regular-customers-list__client {
   width: 170px;
   height: 92px;
 }
 
-.regular-client + .regular-client {
+.regular-customers-list__client + .regular-customers-list__client {
   margin-left: 30px;
 }
 
-.regular-client-link {
+.regular-customers-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -547,7 +547,7 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-logo {
+.regular-customers-list__client-logo {
   width: 106px;
   height: 60px;
   fill: var(--icon-still);
@@ -555,16 +555,16 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.regular-client-link:hover .client-logo {
+.regular-customers-list__link:hover .regular-customers-list__client-logo {
   fill: var(--fill);
 }
 
-.regular-client-link:focus .client-logo {
+.regular-customers-list__link:focus .regular-customers-list__client-logo {
   fill: var(--fill);
 }
 
-.regular-client-link:hover,
-.regular-client-link:focus {
+.regular-customers-list__link:hover,
+.rregular-customers-list__link:focus {
   border: 1px solid var(--fill);
 }
 /* Footer */
