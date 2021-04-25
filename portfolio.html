@@ -188,35 +188,39 @@
            <div class="wrapper-footer">
             <div> 
                <a href="./index.html" aria-label="Страница WebStudio" class="logo">
-                <span>Web</span><span>Studio</span></a>
-    <address class="contacts">г. Киев, пр-т Леси Украинки, 26
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <span class="logo__part-text">Web</span><span class="logo__part-text--white">Studio</span></a>
+    <address class="address-footer">г. Киев, пр-т Леси Украинки, 26
+        <a href="mailto:info@example.com" class="address-footer__contact">info@example.com</a>
+        <a href="tel:+380961111111" class="address-footer__contact">+38 096 111 11 11</a>
     </address>
         </div>
         <div class="icon-social-links-footer">
-        <h3>Присоединяйтесь</h3>
-        <ul class="social-links-list-footer">
-            <li class="social-link-icon-footer"><a href="#" class="social-link-footer">
-                <svg class="social-links-icon"  >
+        <h3 class="icon-social-links-footer__tittle">Присоединяйтесь</h3>
+        <ul class="social-links-list">
+            <li class="social-links-list__item">
+                <a href="#" class="social-links-list__link">
+                <svg class="social-links-list__icon">
                     <use href="./images/icon.svg#icon-instagram" ></use>    
                 </svg>
             </a>
         </li>
-            <li class="social-link-icon-footer">  <a href="#" class="social-link-footer">
-                <svg class="social-links-icon"  >
+            <li class="social-links-list__item"> 
+                 <a href="#" class="social-links-list__link">
+                <svg class="social-links-list__icon"  >
                     <use href="./images/icon.svg#icon-twitter" ></use>    
                 </svg>
             </a>
             </li>
-            <li class="social-link-icon-footer"> <a href="#" class="social-link-footer">
-                <svg class="social-links-icon" >
+            <li class="social-links-list__item"> 
+                <a href="#" class="social-links-list__link">
+                <svg class="social-links-list__icon" >
                     <use href="./images/icon.svg#icon-facebook"></use>    
                 </svg>
             </a>
             </li>
-            <li class="social-link-icon-footer"> <a href="#" class="social-link-footer">
-                <svg class="social-links-icon" >
+            <li class="social-links-list__item">
+                <a href="#" class="social-links-list__link">
+                <svg class="social-links-list__icon" >
                     <use href="./images/icon.svg#icon-linkedin"></use>    
                 </svg>
             </a>      
@@ -224,21 +228,24 @@
         </ul>
             </div>
 
-            <div class="form-subscription">
-                <h3>Подпишитесь на рассылку</h3>
-                <form name="form-subscription" autocomplete="off" class="window-email-sudscribe" >
+             <div class="form-subscription-wrapper">
+                <h3 class="form-subscription-wrapper__tittle">Подпишитесь на рассылку</h3>
+                <form name="form-subscription"
+                 autocomplete="off"
+                  class="form-subscription" >
                     <input type="email" 
                     name="email"
-                     placeholder="E-mail" />
-                    <button type="submit" class="subscribe-btn">
-                        <span class="btn-subscribe-name">Подписаться</span>
-                        <svg class="icon-btn-email-subscribe">
+                     placeholder="E-mail"
+                     class="form-subscription__input" />
+                    <button type="submit" class="btn-subscribe">
+                        <span class="btn-subscribe__name">Подписаться</span>
+                        <svg class="btn-subscribe__icon">
                             <use href="./images/icon.svg#icon-send"></use>
                         </svg>
                     </button>
-                    </form>  
-           </div>
-           
+                </form>              
+             </div>          
+                   
          </div>
         </div>
         </footer>
