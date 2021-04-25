@@ -434,67 +434,67 @@
 
    <div class="backdrop is-hidden" data-modal>
        <div class="modal">
-            <btn class="modal-closed-btn is-hidden" data-modal-close>
-                <svg class="icon-closed-modal">
+            <btn class="modal__btn-close is-hidden" data-modal-close>
+                <svg class="modal__icon-close">
                     <use href="./images/icon.svg#icon-closed" ></use>
                 </svg>
             </btn>
 
             <div class="registration-form">
 
-                <h2>Оставьте свои данные, мы вам перезвоним</h2>
+                <h2 class="registration-form__tittle">Оставьте свои данные, мы вам перезвоним</h2>
 
             <form class="signup-form" name="signup-form" autocomplete="off">
-                <label>
+                <label class="signup-form__lable">
                     Имя
                     <span class="icon-form-wrapper">
-                    <input type="text" name="name" required />
-                    <svg class="icon-form-svg"  >
+                    <input type="text" name="name" required class="signup-form__input" />
+                    <svg class="signup-form__icon"  >
                         <use href="./images/icon.svg#icon-person"></use>
                     </svg>
                     </span>
                 </label>
-                <label>
+                <label class="signup-form__lable">
                     Телефон
                     <span class="icon-form-wrapper">
-                    <input type="tel" name="phone" required />
-                    <svg  class="icon-form-svg" >
+                    <input type="tel" name="phone" required class="signup-form__input" />
+                    <svg  class="signup-form__icon" >
                         <use href="./images/icon.svg#icon-phone"></use>
                     </svg>
                     </span>
                 </label>
-                <label>
+                <label class="signup-form__lable">
                     Почта
                     <span class="icon-form-wrapper">
-                    <input type="email" name="email" />
-                    <svg class="icon-form-svg" >
+                    <input type="email" name="email" class="signup-form__input"/>
+                    <svg class="signup-form__icon" >
                         <use href="./images/icon.svg#icon-email"></use>
                     </svg>
                     </span>
-                </label>
+                </label class="signup-form__lable">
                 
-                <label>
+                <label class="signup-form__lable">
                     Комментарий
-                    <textarea name="feedback" placeholder="Введите текст"></textarea>
+                    <textarea name="feedback" 
+                    placeholder="Введите текст" class="signup-form__textarea"></textarea>
                 </label>
-                
-                
+                               
                 
                 <label for="agree-with-contract" class="checkbox-label">
-                    <input class="agree-with-contract  visually-hidden"  
+                    <input class="checkbox-label__input  visually-hidden"  
                     type="checkbox" 
                     name="agree-with-contract" 
                     value="agree" 
                     id="agree-with-contract"
                     required />
-                    <svg class="icon-checkin">
+                    <svg class="checkbox-label__icon">
                         <use href="./images/icon.svg#icon-checkin"></use>
                     </svg>
                     <span>Соглашаюсь с рассылкой и принимаю &nbsp;</span>
                     <a class="contract-link" href="#">Условия договора</a>
                 </label>
                 
-                <button class="submit-btn" type="submit">Отправить</button>
+                <button class="btn-submit" type="submit">Отправить</button>
             </form>
             </div>
 
