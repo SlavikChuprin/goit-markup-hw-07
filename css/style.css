@@ -279,7 +279,7 @@ header {
   text-align: center;
   padding: 200px 0;
 }
-.hero h1 {
+.hero__title {
   margin-bottom: 30px;
   font-size: 44px;
   line-height: 1.36;
