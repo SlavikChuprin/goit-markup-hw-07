@@ -334,10 +334,10 @@ header {
   color: var(--text-h);
 }
 
-.feauters__item {
+.features__item {
   width: 270px;
 }
-.feauters__item:not(:last-child) {
+.features__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -350,7 +350,7 @@ header {
   color: var(--main-text);
 }
 
-.feauters__icon {
+.features__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,28 +367,28 @@ header {
   padding-bottom: 94px;
 }
 
-img {
-  display: block;
-}
-
-.what-we-do h2 {
+.what-we-do__tittle {
   margin-bottom: 50px;
 }
 
-.what-we-do-cases {
+.what-we-do__list {
   display: flex;
   justify-content: center;
 }
 
-.do-image + .do-image {
+.what-we-do__item + .what-we-do__item {
   margin-left: 30px;
 }
 
-.do-image {
+.what-we-do__item {
   position: relative;
 }
 
-.do-image h3 {
+.what-we-do__image {
+  display: block;
+}
+
+.what-we-do__description {
   display: block;
   padding-top: 27px;
   padding-bottom: 27px;
