@@ -8,6 +8,10 @@
   letter-spacing: 0.03em;
 
   color: $spacial-text;
+  &:hover,
+  &:focus {
+    color: $spacial-text;
+  }
 }
 
 .logo__part-text {
